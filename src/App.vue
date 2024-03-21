@@ -104,7 +104,28 @@
       }
     }
 
-    @media only screen and (max-width: 360px) {
+    @media only screen and (max-width: 960px) and (min-width: 906px) {
+      .body{
+        padding-left: 0% !important;
+      }
+      .newsandpopular{
+        display: flex;
+        gap: 2rem;
+      }
+    }
+
+    @media only screen and (max-width: 906px) and (min-width: 500px) {
+      .body{
+        padding-left: 25% !important;
+      }
+      .newsandpopular{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+    }
+
+    @media only screen and (max-width: 500px) and (min-width: 360px) {
       .body{
         padding-left: 0% !important;
       }

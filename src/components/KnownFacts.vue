@@ -164,7 +164,23 @@
             }
         }
 
-        @media only screen and (max-width: 360px) {
+        @media only screen and (max-width: 906px) and (min-width: 500px) {
+            .mainn{
+                width: 360px !important;
+                height: 320px !important;
+                overflow-y: hidden;
+                scrollbar-width: thin; 
+                scrollbar-color: #F0F4F5 #ffffff;
+            }
+            main{
+                padding-top: 0px !important;
+            }
+            .header .buttons{
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 500px) and (min-width: 360px) {
             .mainn{
                 width: 360px !important;
                 height: 320px !important;

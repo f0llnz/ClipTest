@@ -151,7 +151,36 @@
       }
     }
 
-    @media only screen and (max-width: 360px) {
+    @media only screen and (max-width: 906px) and (min-width: 500px) {
+      main{
+        width: 360px !important;
+        height: 496px !important;
+      }
+      .mainn{
+        padding-left: 150px;
+        width: 360px !important;
+        height: 496px !important;
+      }
+      .images{
+        width: 328px !important;
+        height: 280px !important; 
+      }
+      .main{
+        width: 360px !important;
+      }
+      .main h5{
+        display: none;
+      }
+      .main h1{
+        font-size: 20px !important;
+      }
+      .slider{
+        width: 328px !important;
+        margin-left: -8.5rem;
+      }
+    }
+
+    @media only screen and (max-width: 500px) and (min-width: 360px) {
       main{
         width: 360px !important;
         height: 496px !important;

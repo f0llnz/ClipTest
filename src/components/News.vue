@@ -185,7 +185,14 @@
       }
     }
 
-    @media only screen and (max-width: 360px) {
+    @media only screen and (max-width: 906px) and (min-width: 500px) {
+        .news{
+            width: 360px !important;
+            height: 330px !important;
+        }
+    }
+
+    @media only screen and (max-width: 500px) and (min-width: 360px){
         .news{
             width: 360px !important;
             height: 330px !important;

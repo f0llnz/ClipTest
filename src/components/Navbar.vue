@@ -192,7 +192,16 @@
     }
   }
 
-  @media only screen and (max-width: 360px) {
+  @media only screen and (max-width: 906px) and (min-width: 500px) {
+      .firstUl{
+        display: none;
+      }
+      .intel{
+        display: none;
+      }
+    }
+
+  @media only screen and (max-width: 500px) and (min-width: 360px) {
     .firstUl{
       display: none;
     }

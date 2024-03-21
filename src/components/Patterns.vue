@@ -115,7 +115,40 @@
       }
     }
 
-    @media only screen and (max-width: 360px) {
+    
+    @media only screen and (max-width: 906px) and (min-width: 500px) {
+      .responsive{
+        display: none;
+      }
+      
+      .patterns{
+        width: 360px !important;
+        height: 276px !important;
+      }
+      
+      .pimages{
+        width: 344px !important;
+        height: 160px !important;
+      }
+      
+      .saerto{
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .side{
+        display: block;
+        width: 360px !important;
+        height: 412px !important;
+      }
+
+      .side .pimages{
+        width: 336px !important;
+        height: 280px !important;
+      }
+    }
+
+    @media only screen and (max-width: 500px) and (min-width: 360px) {
      
       .responsive{
         display: none;
