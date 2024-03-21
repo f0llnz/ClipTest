@@ -15,7 +15,7 @@
       <Navbar />
     </nav>
     <div class="body" style="padding-left: 15%">
-      <slider class="responsive"/>
+      <Slider class="responsive"/>
       <div class="side flex gap-8">
         <Slider />
         <News />
